@@ -52,13 +52,13 @@ const Portfolio = () => {
     : portfolioImages.filter(img => img.category === activeCategory);
 
   return (
-    <section id="portfolio" className="section-padding bg-gray-50">
+    <section id="portfolio" className="section-padding bg-gray-50 dark:bg-gray-800">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16 animate-fade-in-up">
-          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 gradient-text">
+          <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 gradient-text dark:bg-gradient-to-r dark:from-white dark:via-gray-300 dark:to-white dark:bg-clip-text dark:text-transparent">
             My Portfolio
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-600 dark:text-gray-400 max-w-3xl mx-auto">
             A collection of my finest work, showcasing the diversity and quality 
             of professional photography across different styles and subjects.
           </p>
@@ -72,8 +72,8 @@ const Portfolio = () => {
               onClick={() => setActiveCategory(category)}
               className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                 activeCategory === category
-                  ? 'bg-gray-900 text-white shadow-lg'
-                  : 'bg-white text-gray-700 hover:bg-gray-100 shadow-md'
+                  ? 'bg-gray-900 dark:bg-gray-100 text-white dark:text-gray-900 shadow-lg'
+                  : 'bg-white dark:bg-gray-700 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-600 shadow-md'
               }`}
             >
               {category}
@@ -86,7 +86,7 @@ const Portfolio = () => {
           {filteredImages.map((image, index) => (
             <Card 
               key={image.id}
-              className={`group overflow-hidden border-0 shadow-lg hover-lift animate-scale-in`}
+              className={`group overflow-hidden border-0 shadow-lg hover-lift animate-scale-in dark:bg-gray-700`}
               style={{ animationDelay: `${index * 100}ms` }}
               onMouseEnter={() => setHoveredImage(image.id)}
               onMouseLeave={() => setHoveredImage(null)}

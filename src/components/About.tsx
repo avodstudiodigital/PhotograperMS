@@ -1,14 +1,14 @@
 
 const About = () => {
   return (
-    <section id="about" className="section-padding bg-white">
+    <section id="about" className="section-padding bg-white dark:bg-gray-900">
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           <div className="animate-slide-in-left">
-            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 gradient-text">
+            <h2 className="text-4xl md:text-5xl font-display font-bold mb-6 gradient-text dark:bg-gradient-to-r dark:from-white dark:via-gray-300 dark:to-white dark:bg-clip-text dark:text-transparent">
               Hello, I'm Alexandra
             </h2>
-            <div className="space-y-6 text-lg text-gray-600 leading-relaxed">
+            <div className="space-y-6 text-lg text-gray-600 dark:text-gray-400 leading-relaxed">
               <p>
                 With over 8 years of experience in professional photography, I specialize in 
                 capturing authentic moments that tell compelling stories. My passion lies in 
@@ -30,16 +30,16 @@ const About = () => {
             
             <div className="mt-8 grid grid-cols-3 gap-6">
               <div className="text-center animate-scale-in animation-delay-200">
-                <div className="text-3xl font-bold text-gray-900 mb-2">500+</div>
-                <div className="text-gray-600">Happy Clients</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">500+</div>
+                <div className="text-gray-600 dark:text-gray-400">Happy Clients</div>
               </div>
               <div className="text-center animate-scale-in animation-delay-400">
-                <div className="text-3xl font-bold text-gray-900 mb-2">8+</div>
-                <div className="text-gray-600">Years Experience</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">8+</div>
+                <div className="text-gray-600 dark:text-gray-400">Years Experience</div>
               </div>
               <div className="text-center animate-scale-in animation-delay-600">
-                <div className="text-3xl font-bold text-gray-900 mb-2">50+</div>
-                <div className="text-gray-600">Awards Won</div>
+                <div className="text-3xl font-bold text-gray-900 dark:text-white mb-2">50+</div>
+                <div className="text-gray-600 dark:text-gray-400">Awards Won</div>
               </div>
             </div>
           </div>

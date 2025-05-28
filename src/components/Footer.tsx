@@ -1,12 +1,12 @@
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-gray-900 dark:bg-gray-950 text-white py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div>
             <h3 className="font-display text-2xl font-bold mb-4">Alexandra Stone</h3>
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-400 dark:text-gray-500 leading-relaxed">
               Professional photographer specializing in portraits, corporate photography, 
               and lifestyle sessions. Creating timeless memories with artistic vision.
             </p>
@@ -14,7 +14,7 @@ const Footer = () => {
           
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 text-gray-400 dark:text-gray-500">
               <li><a href="#home" className="hover:text-white transition-colors">Home</a></li>
               <li><a href="#about" className="hover:text-white transition-colors">About</a></li>
               <li><a href="#portfolio" className="hover:text-white transition-colors">Portfolio</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
           
           <div>
             <h4 className="font-semibold mb-4">Connect</h4>
-            <ul className="space-y-2 text-gray-400">
+            <ul className="space-y-2 text-gray-400 dark:text-gray-500">
               <li><a href="#" className="hover:text-white transition-colors">Instagram</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Facebook</a></li>
               <li><a href="#" className="hover:text-white transition-colors">LinkedIn</a></li>
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
+        <div className="border-t border-gray-800 dark:border-gray-700 mt-8 pt-8 text-center text-gray-400 dark:text-gray-500">
           <p>&copy; 2024 Alexandra Stone Photography. All rights reserved.</p>
         </div>
       </div>
