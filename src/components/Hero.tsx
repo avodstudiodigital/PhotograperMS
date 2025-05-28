@@ -1,6 +1,5 @@
 
 import { Button } from '@/components/ui/button';
-import { Camera } from 'lucide-react';
 
 const Hero = () => {
   const scrollToSection = (id: string) => {
@@ -24,7 +23,11 @@ const Hero = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in-up">
           <div className="flex items-center justify-center mb-6 animate-scale-in animation-delay-200">
-            <Camera className="w-12 h-12 text-gray-700 dark:text-gray-300 mr-3" />
+            <img 
+              src="/photographer-profile.jpg" 
+              alt="Alexandra Stone - Professional Photographer" 
+              className="w-20 h-20 rounded-full object-cover border-4 border-white dark:border-gray-600 shadow-lg mr-4"
+            />
             <span className="text-lg text-gray-600 dark:text-gray-400 font-medium">Professional Photography</span>
           </div>
           
