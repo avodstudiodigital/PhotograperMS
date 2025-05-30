@@ -3,6 +3,12 @@
 
 A modern, animated, and responsive photography portfolio website showcasing professional photography services. Built with React, TypeScript, Tailwind CSS, and shadcn/ui components.
 
+![light-mode](public/light-mode.jpg)
+
+![dark-mode](public/dark-mode.jpg)
+
+
+
 ## 🌟 Features
 
 ### Design & User Experience
@@ -40,8 +46,7 @@ A modern, animated, and responsive photography portfolio website showcasing prof
 
 1. **Clone the repository**
    ```bash
-   git clone <repository-url>
-   cd moving-photo-showcase
+   Download project
    ```
 
 2. **Install dependencies**
