@@ -244,6 +244,8 @@ This portfolio template is designed to be easily customizable for any photograph
 
 ## 🙏 Credits
 
+Designed and developed by Avodstudio
+
 - **Design Framework**: Tailwind CSS
 - **UI Components**: shadcn/ui
 - **Icons**: Lucide React
@@ -251,6 +253,15 @@ This portfolio template is designed to be easily customizable for any photograph
 - **Images**: Unsplash (placeholder images)
 - **Build Tool**: Vite
 - **Framework**: React with TypeScript
+
+## License
+This project is licensed under the GPL License - see the LICENSE file for details.
+
+
+## 📧 Contact
+For any inquiries, please reach out through the contact form on our website.
+
+Made with ❤️ by Avodstudio | design by Alex Gogan | developed by Mohamed||Frank
 
 ---
 
